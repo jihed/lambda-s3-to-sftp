@@ -12,7 +12,7 @@ cryptography==2.0.3       # via paramiko
 docutils==0.14            # via botocore
 idna==2.6                 # via cryptography
 jmespath==0.9.3           # via boto3, botocore
-paramiko==2.1.1
+paramiko==2.1.6
 pyasn1==0.3.6             # via paramiko
 pycparser==2.18           # via cffi
 python-dateutil==2.6.1    # via botocore
