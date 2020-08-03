@@ -230,6 +230,7 @@ def archive_file(*, bucket, filename, contents):
     try:
         boto3.resource('s3').Object(bucket, key).put(Body=contents)
     except botocore.exceptions.BotoCoreError as ex:
+        logger.error("Error loading to s3: %s" % ex) 
         logger.exception(f"S3-SFTP: Error archiving '{ filename }' as '{ key }'.")
     else:
         logger.info(f"S3-SFTP: Archived '{ filename }' as '{ key }'.")
