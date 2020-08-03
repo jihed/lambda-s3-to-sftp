@@ -8,7 +8,7 @@ asn1crypto==0.23.0        # via cryptography
 boto3==1.4.3
 botocore==1.4.93          # via boto3, s3transfer
 cffi==1.11.0              # via cryptography
-cryptography==2.0.3       # via paramiko
+cryptography==2.3       # via paramiko
 docutils==0.14            # via botocore
 idna==2.6                 # via cryptography
 jmespath==0.9.3           # via boto3, botocore
