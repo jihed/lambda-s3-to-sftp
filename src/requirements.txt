@@ -10,7 +10,7 @@ cffi==1.14.1              # via cryptography
 cryptography==3.0         # via paramiko
 docutils==0.15.2          # via botocore
 jmespath==0.10.0          # via boto3, botocore
-paramiko==2.1.6           # via -r requirements.in
+paramiko==2.10.1           # via -r requirements.in
 pyasn1==0.4.8             # via paramiko
 pycparser==2.20           # via cffi
 python-dateutil==2.8.1    # via botocore
